@@ -2,7 +2,7 @@
 title: 'AWS Simple HTTP Endpoint example in NodeJS'
 description: 'This template demonstrates how to make a simple REST API with Node.js running on AWS Lambda and API Gateway using the traditional Serverless Framework.'
 layout: Doc
-framework: v2
+framework: v3
 platform: AWS
 language: nodeJS
 authorLink: 'https://github.com/serverless'
@@ -97,7 +97,7 @@ resources:
                 - dynamodb:GetItem
                 - dynamodb:Scan
               Resource:
-                - 
+                - arn:aws:dynamodb:us-east-1:351589122876:table/ItemTableNew
   ```
   
    - Instalar dependências
