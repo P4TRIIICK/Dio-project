@@ -72,7 +72,7 @@ resources:
     ItemTable:
       Type: AWS::DynamoDB::Table
       Properties:
-          TableName: ItemTable
+          TableName: ItemTableNew
           BillingMode: PAY_PER_REQUEST
           AttributeDefinitions:
             - AttributeName: id
@@ -97,7 +97,7 @@ resources:
                 - dynamodb:GetItem
                 - dynamodb:Scan
               Resource:
-                - arn:aws:dynamodb:us-east-1:167880115321:table/ItemTable
+                - 
   ```
   
    - Instalar dependências
