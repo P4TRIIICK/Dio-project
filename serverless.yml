@@ -1,6 +1,6 @@
-service: dio-live-project
+service: projeto-dio1
 
-frameworkVersion: '2'
+frameworkVersion: '3'
 
 
 provider:
